@@ -1,0 +1,17 @@
+# Local secrets (ignore rules do not remove already tracked files)
+.env
+.env.*
+!.env.example
+
+# Local tooling and OS files
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+__pycache__/
+.venv/
+
+# Temporary exports
+*.tar.gz
+
+# dist/ is the application source in this buildless project. Keep it tracked.
